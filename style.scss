@@ -1,0 +1,39 @@
+@mixin setBackground($color){
+    background-color: $color;
+    
+}
+
+@mixin displayFlex ($b) {
+
+}
+@mixin displayFlex ($a, $b) {
+    display:flex;
+    justify-content: center;
+    flex-direction: $b;
+    
+}
+
+.container {
+    margin: 10px;
+    @include setBackground(blue);
+}
+
+@function plus ($a, $b) {
+    $c : $a + $b;
+    @return $c;
+}
+
+@import './variables';
+@import './header';
+
+body {
+    background-color: $mainColor;
+    color: white;
+    text-align: center;
+    @include setBackground(white);
+}
+
+input [type="button"] {
+    background: skyblue;
+    // @include setBackground();
+}

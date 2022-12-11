@@ -1,0 +1,33 @@
+.container {
+  margin: 10px;
+  background-color: blue;
+}
+
+header {
+  background-color: rgb(64, 135, 197);
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+header button {
+  width: 70px;
+  height: 60px;
+  background: gray;
+}
+header button:hover {
+  background: cyan;
+}
+header button:first-child {
+  border: solid 5 px;
+}
+
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  background-color: white;
+}
+
+input [type=button] {
+  background: skyblue;
+}/*# sourceMappingURL=style.css.map */

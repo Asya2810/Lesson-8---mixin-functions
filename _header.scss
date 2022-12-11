@@ -1,0 +1,18 @@
+header {
+    background-color: rgb(64, 135, 197);
+    padding:30px;
+    display: flex;
+    justify-content: space-around;
+    button {
+        width: 70px;
+        height: 60px;
+        background: gray;
+        &:hover {background: $secondcolor;
+            
+        }
+        &:first-child {
+            border: solid 5 px;
+        }
+    
+    }
+}
